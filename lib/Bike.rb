@@ -3,3 +3,6 @@ class Bike
     return "working"
   end
 end
+
+bike1 = Bike.new
+bike2 = Bike.new
