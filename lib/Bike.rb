@@ -1,8 +1,6 @@
 class Bike
   def working?
-    return "working"
+    true
   end
 end
 
-bike1 = Bike.new
-bike2 = Bike.new

@@ -1,7 +1,5 @@
 require 'Bike'
 
 describe Bike do
-  it "should respond to" do
-    expect(Bike.new.working?).to eq("working")
-  end
+  it { is_expected.to respond_to :working? }
 end
